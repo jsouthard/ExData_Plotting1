@@ -30,7 +30,7 @@ rm(classes, dataFile, tmpTable)
 ## Perform plotting
 png(file="plot1.png", width = 480, height = 480, units = "px")
 hist(data$Global_active_power, 
-	 col="#dd431e", 					# Color sampled from example image
+	 col="#FF0000",
 	 main="Global Active Power",
 	 xlab="Global Active Power (kilowatts)") 
 dev.off()
